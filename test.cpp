@@ -16,9 +16,9 @@ int main(int argc, char** argv) {
     }
 
     if (less_than_five(i)) {
-        cout << "less than 5" << endl;
+        cout << i << " is less than 5" << endl;
     } else {
-        cout << "greater than or equal to 5" << endl;
+        cout << i << " is greater than or equal to 5" << endl;
     }
 }
 
